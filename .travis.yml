@@ -7,3 +7,5 @@ services: redis-server
 install: pip install . 
 
 script: python setup.py test
+
+build_image: drydock/u14pytpls:prod
